@@ -1,0 +1,46 @@
+{
+  "section1": {
+    "Name": "徐靖壹",
+    "JobTitle": "軟體工程師",
+    "About_1": "我是一名有5年前後端開發經驗的軟體工程師，具有獨立完成前後端專案開發的能力。主要經驗為IoT資料整合系統的開發，善於資訊收集整合，並依客戶需求將資料視覺化呈現。",
+    "About_2": "前端主要使用Vue.js搭配UI Framework建置網站，後端主要使用C#在.NET生態系開發API或Service，另外也熟悉Redis和Websocket。"
+  },
+  "section2": {
+    "Title": "工作經歷",
+    "JobTitle": "軟體工程師",
+    "EndTime": "至今",
+    "Company": "竹陞科技股份有限公司",
+    "Subtitle_1": "系統設計",
+    "Subtitle_2": "前端開發",
+    "Subtitle_3": "後端開發",
+    "Content_1": "規劃系統架構，包含前後端資料串接與資料庫儲存備援",
+    "Content_2": "與UI/UX設計師討論系統操作流程以及如何提升使用者體驗",
+    "Content_3": "系統TestReport與SOP操作文件撰寫",
+    "Content_4": "使用Vue框架搭配Bootstrap開發RWD網頁，呈現Dashboard、Runtime Monitor 等符合客戶需求的使用者介面",
+    "Content_5": "使用i18n使網站支援多國語係",
+    "Content_6": "使用ECharts套件將資料進行視覺化，呈現清晰易懂的圖表，以顯示資料狀態",
+    "Content_7": "使用MSSQL Server建立資料庫，儲存數據",
+    "Content_8": "使用Entity Framework串聯資料庫，將資料統整運算後提供API接口",
+    "Content_9": "使用Redis串聯IoT設備取得Sensor數據，並儲存在資料庫中加以統整應用"
+  },
+  "section3": {
+    "Title": "技能",
+    "Subtitle_1": "前端",
+    "Subtitle_2": "後端",
+    "Content_1": "語言",
+    "Content_2": "框架",
+    "Content_3": "建置工具",
+    "Content_4": "UI框架",
+    "Content_5": "程式碼檢查工具",
+    "Content_6": "語言",
+    "Content_7": "框架",
+    "Content_8": "資料庫",
+    "Content_9": "應用程式",
+    "Content_10": "其他技術"
+  },
+  "section4": {
+    "Title": "學歷",
+    "Subtitle_1": "國立台中教育大學",
+    "Subtitle_2": "數位內容科技學系"
+  }
+}

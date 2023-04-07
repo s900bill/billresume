@@ -1,1 +1,2 @@
-# billresume
+npm install
+npm run dev
