@@ -2,6 +2,15 @@
   "section1": {
     "Name": "Bill Hsu",
     "JobTitle": "Software Engineer",
+    "Item1":"Over five years of experience in full-stack website development:",
+    "ItemDetail1":"Experienced in database planning, front-end and back-end architecture, and system operation flow.",
+    "Item2":"Excellent communication skills:",
+    "ItemDetail2":"Skilled in integrating client requirements and proposing solutions through effective communication.",
+    "Item3":"Proficient in project management and agile development:",
+    "ItemDetail3":"Familiar with Scrum methodologies and proficient in using Teamwork for project management and progress tracking.",
+    "Item4":"Proactive and self-directed learner:",
+    "ItemDetail4":"Actively explores new industry knowledge, embraces new technologies, and assesses their feasibility for current projects.",
+    
     "About_1": "I am a software engineer with around 5 years of experience in both frontend and backend development, and capable of independently completing projects from both ends. My primary experience lies in developing IoT data integration systems, and I excel in information gathering and integration, as well as visualizing data according to client needs.",
     "About_2": "On the frontend, I mainly use Vue.js with UI frameworks to build websites, and on the backend, I primarily use C# to develop APIs or services in the .NET ecosystem. Additionally, I am also familiar with Redis and Websockets."
   },

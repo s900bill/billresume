@@ -28,14 +28,34 @@
             </div>
           </div>
           <div class="d-sm-block d-none">
-            <p> {{ $t('section1.About_1') }}</p>
-            <p> {{ $t('section1.About_2') }}</p>
+            <li class="fw-bold fs-5 text-warning"> {{ $t('section1.Item1') }} <br v-if="locale == 'en'" />
+              <small class="fs-7 text-white" :class="locale == 'en' ? 'blockquote-footer text-opacity-75 ms-3' : ''">{{
+                $t('section1.ItemDetail1') }}</small>
+            </li>
+            <li class="fw-bold fs-5 text-warning"> {{ $t('section1.Item2') }} <br v-if="locale == 'en'" />
+              <small class="fs-7 text-white" :class="locale == 'en' ? 'blockquote-footer text-opacity-75 ms-3' : ''">{{
+                $t('section1.ItemDetail2') }}</small>
+            </li>
+            <li class="fw-bold fs-5 text-warning"> {{ $t('section1.Item3') }} <br v-if="locale == 'en'" />
+              <small class="fs-7 text-white" :class="locale == 'en' ? 'blockquote-footer text-opacity-75 ms-3' : ''">{{
+                $t('section1.ItemDetail3') }}</small>
+            </li>
+            <li class="fw-bold fs-5 text-warning"> {{ $t('section1.Item4') }} <br v-if="locale == 'en'" />
+              <small class="fs-7 text-white" :class="locale == 'en' ? 'blockquote-footer text-opacity-75 ms-3' : ''">{{
+                $t('section1.ItemDetail4') }}</small>
+            </li>
+            <!-- <li> {{ $t('section1.Item1') }} <br/><i class="blockquote-footer ms-5">{{ $t('section1.ItemDetail1')  }}</i></li>
+   <li> {{ $t('section1.Item2') }} <br/><i class="blockquote-footer ms-5">{{ $t('section1.ItemDetail2')  }}</i></li>
+   <li> {{ $t('section1.Item3') }} <br/><i class="blockquote-footer ms-5">{{ $t('section1.ItemDetail3')  }}</i></li>
+   <li> {{ $t('section1.Item4') }} <br/><i class="blockquote-footer ms-5">{{ $t('section1.ItemDetail4')  }}</i></li> -->
+
+
           </div>
 
         </div>
         <div class="float-start d-sm-none d-block text-white">
-          <p> {{ $t('section1.About_1') }}</p>
-          <p> {{ $t('section1.About_2') }}</p>
+          <li> {{ $t('section1.Item1') }}</li>
+          <li> {{ $t('section1.Item2') }}</li>
         </div>
       </div>
     </section>
@@ -131,7 +151,7 @@
         class="icon-link bi-translate "></i></div>
     <div class="border border-3 px-2 rounded " role="button" @click="exportPDF"> <i class="icon-link bi-filetype-pdf"></i>
     </div>
-</div>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -147,8 +167,8 @@ function changelang() {
 }
 
 function exportPDF() {
-  var element = document.querySelector('#content');
-  var opt = {
+  const element = document.querySelector('#content');
+  const opt = {
     margin: 0,
     filename: 'BillHsu徐靖壹.pdf',
     image: { type: 'jpeg', quality: 0.98 },
@@ -192,11 +212,9 @@ body {
   right: 30px;
   transform: translateY(-50%);
   background-color: #fff;
-  div:hover{
-    color:#647b71;
-    border-color:#647b71;
+
+  div:hover {
+    color: #647b71;
+    border-color: #647b71;
   }
-}
-
-
-</style>
+}</style>
