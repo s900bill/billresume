@@ -185,70 +185,6 @@
       </div>
     </section>
     <hr style="width: 90%; margin: auto" />
-    <section class="p-3 p-md-5 fade-in">
-      <h3 class="text-primary fw-bolder mb-3">{{ $t('section3.Title') }}</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="hstack gap-1 fw-bolder fs-5 mb-2">
-            <div
-              class="bg-primary rounded me-1"
-              style="width: 5px; height: 1lh"
-            ></div>
-            {{ $t('section3.Subtitle_1') }}
-          </div>
-          <ul>
-            <li>{{ $t('section3.Content_1') }}: HTML, CSS, SCSS, JS, TS</li>
-            <li>{{ $t('section3.Content_2') }}: Vue.js</li>
-            <li>{{ $t('section3.Content_3') }}: Webpack, Babel, Vite</li>
-            <li>
-              {{ $t('section3.Content_4') }}: Bootstrap, Element-UI, Ant Design
-              Vue
-            </li>
-            <li>{{ $t('section3.Content_5') }}: Eslint, Prettier</li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <div class="hstack gap-1 fw-bolder fs-5 mb-2">
-            <div
-              class="bg-primary rounded me-1"
-              style="width: 5px; height: 1lh"
-            ></div>
-            {{ $t('section3.Subtitle_2') }}
-          </div>
-          <ul>
-            <li>{{ $t('section3.Content_6') }}: C#</li>
-            <li>{{ $t('section3.Content_7') }}: .NET Framework, node.js</li>
-            <li>
-              {{ $t('section3.Content_8') }}: MSSQL,SQLite,Entity Framework
-              ,Redis
-            </li>
-            <li>
-              {{ $t('section3.Content_9') }}:Winform,Windows Service,ASP.NET
-              Core
-            </li>
-            <li>{{ $t('section3.Content_10') }}: Websocket, Signalr, IIS</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <hr style="width: 90%; margin: auto" />
-    <section class="p-3 p-lg-5 fade-in">
-      <h3 class="text-primary fw-bolder mb-3">{{ $t('section4.Title') }}</h3>
-      <div class="d-flex w-100 justify-content-between flex-wrap">
-        <div class="fs-5 fw-bolder d-flex">
-          <div
-            class="bg-primary rounded me-2"
-            style="width: 5px; height: 1lh"
-          ></div>
-          {{ $t('section4.Subtitle_1') }}
-        </div>
-        <small class="text-primary fw-bolder">2014 - 2017</small>
-      </div>
-      <div class="fs-6 text-secondary ms-3">
-        {{ $t('section4.Subtitle_2') }}
-      </div>
-    </section>
-    <hr style="width: 90%; margin: auto" />
     <section class="p-3 p-lg-5 fade-in">
       <h3 class="text-primary fw-bolder mb-3">{{ $t('section5.Title') }}</h3>
       <div class="row mb-5">
@@ -518,6 +454,71 @@
         </div>
       </div>
     </section>
+    <hr style="width: 90%; margin: auto" />
+    <section class="p-3 p-md-5 fade-in">
+      <h3 class="text-primary fw-bolder mb-3">{{ $t('section3.Title') }}</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="hstack gap-1 fw-bolder fs-5 mb-2">
+            <div
+              class="bg-primary rounded me-1"
+              style="width: 5px; height: 1lh"
+            ></div>
+            {{ $t('section3.Subtitle_1') }}
+          </div>
+          <ul>
+            <li>{{ $t('section3.Content_1') }}: HTML, CSS, SCSS, JS, TS</li>
+            <li>{{ $t('section3.Content_2') }}: Vue.js</li>
+            <li>{{ $t('section3.Content_3') }}: Webpack, Babel, Vite</li>
+            <li>
+              {{ $t('section3.Content_4') }}: Bootstrap, Element-UI, Ant Design
+              Vue
+            </li>
+            <li>{{ $t('section3.Content_5') }}: Eslint, Prettier</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div class="hstack gap-1 fw-bolder fs-5 mb-2">
+            <div
+              class="bg-primary rounded me-1"
+              style="width: 5px; height: 1lh"
+            ></div>
+            {{ $t('section3.Subtitle_2') }}
+          </div>
+          <ul>
+            <li>{{ $t('section3.Content_6') }}: C#</li>
+            <li>{{ $t('section3.Content_7') }}: .NET Framework, node.js</li>
+            <li>
+              {{ $t('section3.Content_8') }}: MSSQL,SQLite,Entity Framework
+              ,Redis
+            </li>
+            <li>
+              {{ $t('section3.Content_9') }}:Winform,Windows Service,ASP.NET
+              Core
+            </li>
+            <li>{{ $t('section3.Content_10') }}: Websocket, Signalr, IIS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <hr style="width: 90%; margin: auto" />
+    <section class="p-3 p-lg-5 fade-in">
+      <h3 class="text-primary fw-bolder mb-3">{{ $t('section4.Title') }}</h3>
+      <div class="d-flex w-100 justify-content-between flex-wrap">
+        <div class="fs-5 fw-bolder d-flex">
+          <div
+            class="bg-primary rounded me-2"
+            style="width: 5px; height: 1lh"
+          ></div>
+          {{ $t('section4.Subtitle_1') }}
+        </div>
+        <small class="text-primary fw-bolder">2014 - 2017</small>
+      </div>
+      <div class="fs-6 text-secondary ms-3">
+        {{ $t('section4.Subtitle_2') }}
+      </div>
+    </section>
+   
   </div>
 
   <div class="cart-button p-2 border shadow rounded">
