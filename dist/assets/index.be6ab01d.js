@@ -32532,7 +32532,7 @@ const dF = fA('div', { class: 'mt-5' }, null, -1),
   CF = { class: 'fw-bolder' },
   yF = { class: 'fw-bolder' },
   bF = ll(
-    '<div class="d-flex flex-wrap mb-3"><a class="me-3" href="tel:+886-976-195-677"><i class="bi-telephone me-2"></i>0976195677</a><a href="mailto:s900bill@gmail.com?subject=Email%20Subject&amp;body=Email%20Body"><i class="bi-envelope me-2"></i>s900bill@gmail.com</a></div>',
+    '<div class="d-flex flex-wrap mb-3"><a class="me-3" href="mailto:s900bill@gmail.com?subject=Email%20Subject&amp;body=Email%20Body"><i class="bi-envelope me-2"></i>s900bill@gmail.com</a><a href="tel:+886-976-195-677"><i class="bi-telephone me-2"></i>0976195677</a></div>',
     1
   ),
   _F = { class: 'd-block d-md-none text-center' },
@@ -32770,12 +32770,12 @@ const dF = fA('div', { class: 'mt-5' }, null, -1),
         { locale: t, availableLocales: r } = hl({ useScope: 'global' })
       to(() => {
         const s = A.get('language')
-        t.value = s
+        s && (t.value = s)
       })
       function n() {
         t.value === 'en'
-          ? ((t.value = 'zh'), A.set('lan', 'zh'))
-          : ((t.value = 'en'), A.set('lan', 'en'))
+          ? ((t.value = 'zh'), A.set('language', 'zh'))
+          : ((t.value = 'en'), A.set('language', 'en'))
       }
       to(() => {
         const s = document.querySelectorAll('section'),
@@ -37876,13 +37876,13 @@ var V3 = {
       GServer_Content_1: (e) => {
         const { normalize: A } = e
         return A([
-          'Monitor device operation status (Heartbeat), record and analyze alarm events to improve system stability and reliability.',
+          'Monitoring the operational status of all equipment on the premises, recording and analyzing alarm events to help clients improve system stability and reliability.',
         ])
       },
       GServer_Content_2: (e) => {
         const { normalize: A } = e
         return A([
-          'Integrate sensor data and transform it into easily understandable visual charts, enabling customers to analyze and reference data more effortlessly.',
+          'Integrate sensor data and provide easily comprehensible visual charts to enable customers to analyze and reference the data more effortlessly.',
         ])
       },
       GServer_Content_3: (e) => {
@@ -38008,7 +38008,7 @@ var V3 = {
       },
       Item2: (e) => {
         const { normalize: A } = e
-        return A(['\u5353\u8D8A\u7684\u6E9D\u901A\u80FD\u529B'])
+        return A(['\u826F\u597D\u7684\u6E9D\u901A\u80FD\u529B'])
       },
       ItemDetail2: (e) => {
         const { normalize: A } = e
@@ -38219,13 +38219,13 @@ var V3 = {
       GServer_Content_1: (e) => {
         const { normalize: A } = e
         return A([
-          '\u76E3\u63A7\u8A2D\u5099\u904B\u884C\u72C0\u6CC1(Heartbeat)\uFF0C\u4E26\u4E14\u8A18\u9304\u8207\u5206\u6790\u8B66\u5831\u4E8B\u4EF6\uFF0C\u4EE5\u63D0\u9AD8\u7CFB\u7D71\u7A69\u5B9A\u6027\u8207\u53EF\u9760\u5EA6',
+          '\u76E3\u63A7\u5168\u5834\u8A2D\u5099\u904B\u884C\u72C0\u6CC1\uFF0C\u4E26\u4E14\u8A18\u9304\u8207\u5206\u6790\u8B66\u5831\u4E8B\u4EF6\uFF0C\u5E6B\u52A9\u5BA2\u6236\u63D0\u5347\u7CFB\u7D71\u7A69\u5B9A\u6027\u8207\u53EF\u9760\u5EA6',
         ])
       },
       GServer_Content_2: (e) => {
         const { normalize: A } = e
         return A([
-          '\u6574\u5408Sensor\u6578\u64DA\uFF0C\u4E26\u5C07\u8CC7\u6599\u8F49\u5316\u6210\u6613\u65BC\u7406\u89E3\u7684\u8996\u89BA\u5316\u5716\u8868\uFF0C\u8B93\u5BA2\u6236\u53EF\u4EE5\u66F4\u8F15\u9B06\u5730\u9032\u884C\u5206\u6790\u548C\u53C3\u8003',
+          '\u6574\u5408Sensor\u6578\u64DA\uFF0C\u4E26\u63D0\u4F9B\u6613\u65BC\u7406\u89E3\u7684\u8996\u89BA\u5316\u5716\u8868\uFF0C\u8B93\u5BA2\u6236\u53EF\u4EE5\u66F4\u8F15\u9B06\u5730\u9032\u884C\u5206\u6790\u548C\u53C3\u8003',
         ])
       },
       GServer_Content_3: (e) => {
@@ -38282,7 +38282,7 @@ var V3 = {
       },
       Gumi_Title: (e) => {
         const { normalize: A } = e
-        return A(['GServer-\u901A\u77E5\u7CFB\u7D71'])
+        return A(['Gumi-\u901A\u77E5\u7CFB\u7D71'])
       },
       Gumi_Content_1: (e) => {
         const { normalize: A } = e

@@ -20,12 +20,13 @@
               <h5 class="fw-bolder">{{ $t('section1.JobTitle') }}</h5>
             </div>
             <div class="d-flex flex-wrap mb-3">
-              <a class="me-3" href="tel:+886-976-195-677"
-                ><i class="bi-telephone me-2"></i>0976195677</a
-              >
               <a
+                class="me-3"
                 href="mailto:s900bill@gmail.com?subject=Email%20Subject&body=Email%20Body"
                 ><i class="bi-envelope me-2"></i>s900bill@gmail.com</a
+              >
+              <a href="tel:+886-976-195-677"
+                ><i class="bi-telephone me-2"></i>0976195677</a
               >
             </div>
           </div>
@@ -539,15 +540,17 @@ const { cookies } = useCookies()
 const { locale, availableLocales } = useI18n({ useScope: 'global' })
 onMounted(() => {
   const lan = cookies.get('language')
-  locale.value = lan
+  if (lan) {
+    locale.value = lan
+  }
 })
 function changelang() {
   if (locale.value === 'en') {
     locale.value = 'zh'
-    cookies.set('lan', 'zh')
+    cookies.set('language', 'zh')
   } else {
     locale.value = 'en'
-    cookies.set('lan', 'en')
+    cookies.set('language', 'en')
   }
 }
 

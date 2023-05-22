@@ -5,9 +5,6 @@ import components from 'unplugin-vue-components/vite'
 import banner from 'vite-plugin-banner'
 import pkg from './package.json'
 import vueI18n from '@intlify/vite-plugin-vue-i18n'
-//const { getThemeVariables } = require('ant-design-vue/dist/theme');
-
-import themePreprocessorPlugin from '@zougt/vite-plugin-theme-preprocessor'
 const resolve = (dir: string): string => path.resolve(__dirname, dir)
 
 // https://vitejs.dev/config/
@@ -136,21 +133,7 @@ export default defineConfig({
     vueI18n({
       include: path.resolve(__dirname, 'src/language/lang/**'),
     }),
-    themePreprocessorPlugin({
-      less: {
-        // 各个主题文件的位置
-        multipleScopeVars: [
-          {
-            scopeName: 'theme-dark',
-            path: path.resolve('src/assets/less/dark.less'),
-          },
-          {
-            scopeName: 'theme-default',
-            path: path.resolve('src/assets/less/default.less'),
-          },
-        ],
-      },
-    }),
+
     /**
      * 自动导入组件，不用每次都 import
      * @see https://github.com/antfu/unplugin-vue-components#configuration
