@@ -1,10 +1,4 @@
 <template>
-  <!-- <div class="container fs-5 mt-3  p-1 hstack gap-3">
-    <div class="border border-3 px-2 rounded ms-auto" role="button" @click="changelang"> <i
-        class="icon-link bi-translate "></i></div>
-    <div class="border border-3 px-2 rounded " role="button" @click="exportPDF"> <i class="icon-link bi-filetype-pdf"></i>
-    </div>
-  </div> -->
   <div class="mt-5"></div>
   <div id="content" class="container p-0 bg-white mb-3 rounded shadow">
     <section class="p-4 p-lg-4 bg-primary fade-in">
@@ -544,7 +538,7 @@ const { cookies } = useCookies()
 
 const { locale, availableLocales } = useI18n({ useScope: 'global' })
 onMounted(() => {
-  const lan = cookies.get('lan')
+  const lan = cookies.get('language')
   locale.value = lan
 })
 function changelang() {
