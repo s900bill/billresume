@@ -589,6 +589,8 @@ const modalshow = ref(false)
 </script>
 
 <style lang="scss">
+@import '../node_modules/bootstrap/scss/bootstrap';
+
 [v-cloak] {
   //頁面加載前將DOM中的{{}}隱藏
   display: none;
