@@ -512,7 +512,7 @@
           ></div>
           {{ $t('section4.Subtitle_1') }}
         </div>
-        <small class="text-primary fw-bolder">2014 - 2017</small>
+        <small class="text-primary fw-bolder">2013 - 2017</small>
       </div>
       <div class="fs-6 text-secondary ms-3">
         {{ $t('section4.Subtitle_2') }}
