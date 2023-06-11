@@ -5,11 +5,7 @@
       <div class="row">
         <div class="col-md-3 col-xl-2">
           <div class="mb-3 mx-auto" style="max-width: 180px">
-            <img
-              src="~@/assets/img/Photo.jpg"
-              class="rounded img-fluid"
-              alt="..."
-            />
+            <img src="~@/assets/img/Photo.jpg" class="rounded img-fluid" alt="..." />
           </div>
         </div>
 
@@ -20,14 +16,9 @@
               <h5 class="fw-bolder">{{ $t('section1.JobTitle') }}</h5>
             </div>
             <div class="d-flex flex-wrap mb-3">
-              <a
-                class="me-3"
-                href="mailto:s900bill@gmail.com?subject=Email%20Subject&body=Email%20Body"
-                ><i class="bi-envelope me-2"></i>s900bill@gmail.com</a
-              >
-              <a href="tel:+886-976-195-677"
-                ><i class="bi-telephone me-2"></i>0976195677</a
-              >
+              <a class="me-3" href="mailto:s900bill@gmail.com?subject=Email%20Subject&body=Email%20Body"><i
+                  class="bi-envelope me-2"></i>s900bill@gmail.com</a>
+              <a href="tel:+886-976-195-677"><i class="bi-telephone me-2"></i>0976195677</a>
             </div>
           </div>
           <div class="d-block d-md-none text-center">
@@ -36,13 +27,9 @@
               <h5 class="fw-bolder">{{ $t('section1.JobTitle') }}</h5>
             </div>
             <div class="d-flex justify-content-center flex-wrap mb-3">
-              <a class="me-3" href="tel:+886-976-195-677"
-                ><i class="bi-telephone me-2"></i>0976195677</a
-              >
-              <a
-                href="mailto:s900bill@gmail.com?subject=Email%20Subject&body=Email%20Body"
-                ><i class="bi-envelope me-2"></i>s900bill@gmail.com</a
-              >
+              <a class="me-3" href="tel:+886-976-195-677"><i class="bi-telephone me-2"></i>0976195677</a>
+              <a href="mailto:s900bill@gmail.com?subject=Email%20Subject&body=Email%20Body"><i
+                  class="bi-envelope me-2"></i>s900bill@gmail.com</a>
             </div>
           </div>
           <div class="">
@@ -51,17 +38,11 @@
               <div class="fw-bold fs-5 text-warning">
                 {{ $t('section1.Item1') }}
               </div>
-              <div
-                class="text-opacity-75 text-white fs-7 ms-1"
-                :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'"
-              >
+              <div class="text-opacity-75 text-white fs-7 ms-1" :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'">
                 {{ $t('section1.ItemDetail1') }}
               </div>
             </div>
-            <div
-              class="fs-7 text-white text-opacity-75 ms-4"
-              :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'"
-            >
+            <div class="fs-7 text-white text-opacity-75 ms-4" :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'">
               {{ $t('section1.ItemDetail1') }}
             </div>
             <div class="hstack">
@@ -69,17 +50,11 @@
               <div class="fw-bold fs-5 text-warning">
                 {{ $t('section1.Item2') }}
               </div>
-              <div
-                class="text-opacity-75 text-white fs-7 ms-1"
-                :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'"
-              >
+              <div class="text-opacity-75 text-white fs-7 ms-1" :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'">
                 {{ $t('section1.ItemDetail2') }}
               </div>
             </div>
-            <div
-              class="fs-7 text-white text-opacity-75 ms-4"
-              :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'"
-            >
+            <div class="fs-7 text-white text-opacity-75 ms-4" :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'">
               {{ $t('section1.ItemDetail2') }}
             </div>
             <div class="hstack">
@@ -87,17 +62,11 @@
               <div class="fw-bold fs-5 text-warning">
                 {{ $t('section1.Item3') }}
               </div>
-              <div
-                class="text-opacity-75 text-white fs-7 ms-1"
-                :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'"
-              >
+              <div class="text-opacity-75 text-white fs-7 ms-1" :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'">
                 {{ $t('section1.ItemDetail3') }}
               </div>
             </div>
-            <div
-              class="fs-7 text-white text-opacity-75 ms-4"
-              :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'"
-            >
+            <div class="fs-7 text-white text-opacity-75 ms-4" :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'">
               {{ $t('section1.ItemDetail3') }}
             </div>
             <div class="hstack">
@@ -105,17 +74,11 @@
               <div class="fw-bold fs-5 text-warning">
                 {{ $t('section1.Item4') }}
               </div>
-              <div
-                class="text-opacity-75 text-white fs-7 ms-1"
-                :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'"
-              >
+              <div class="text-opacity-75 text-white fs-7 ms-1" :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'">
                 {{ $t('section1.ItemDetail4') }}
               </div>
             </div>
-            <div
-              class="fs-7 text-white text-opacity-75 ms-4"
-              :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'"
-            >
+            <div class="fs-7 text-white text-opacity-75 ms-4" :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'">
               {{ $t('section1.ItemDetail4') }}
             </div>
           </div>
@@ -130,9 +93,7 @@
           <div class="flex-grow-1">
             <div class="d-flex w-100 justify-content-between flex-wrap">
               <div class="fs-5 fw-bolder">{{ $t('section2.JobTitle') }}</div>
-              <small class="text-primary fw-bolder"
-                >2018 - {{ $t('section2.EndTime') }}</small
-              >
+              <small class="text-primary fw-bolder">2018.01 - {{ $t('section2.EndTime') }}</small>
             </div>
             <div class="fs-6 text-secondary">{{ $t('section2.Company') }}</div>
           </div>
@@ -141,10 +102,7 @@
         <div class="vstack gap-3 ps-3">
           <div>
             <div class="hstack gap-1 fw-bolder">
-              <div
-                class="bg-primary rounded"
-                style="width: 5px; height: 1lh"
-              ></div>
+              <div class="bg-primary rounded" style="width: 5px; height: 1lh"></div>
               {{ $t('section2.Subtitle_1') }}
             </div>
             <ul>
@@ -155,10 +113,7 @@
           </div>
           <div>
             <div class="hstack gap-1 fw-bolder">
-              <div
-                class="bg-primary rounded"
-                style="width: 5px; height: 1lh"
-              ></div>
+              <div class="bg-primary rounded" style="width: 5px; height: 1lh"></div>
               {{ $t('section2.Subtitle_2') }}
             </div>
             <ul>
@@ -169,10 +124,7 @@
           </div>
           <div>
             <div class="hstack gap-1 fw-bolder">
-              <div
-                class="bg-primary rounded"
-                style="width: 5px; height: 1lh"
-              ></div>
+              <div class="bg-primary rounded" style="width: 5px; height: 1lh"></div>
               {{ $t('section2.Subtitle_3') }}
             </div>
             <ul>
@@ -191,10 +143,7 @@
         <div class="col-lg">
           <div class="vstack gap-3">
             <div class="fs-5 fw-bolder d-flex">
-              <div
-                class="bg-primary rounded me-2"
-                style="width: 5px; height: 1lh"
-              ></div>
+              <div class="bg-primary rounded me-2" style="width: 5px; height: 1lh"></div>
               {{ $t('section5.GServer_Title') }}
             </div>
             <div>
@@ -216,123 +165,67 @@
           </div>
         </div>
 
-        <div
-          id="carouselGServer"
-          class="col-lg-7 carousel slide"
-          data-bs-ride="carousel"
-        >
+        <div id="carouselGServer" class="col-lg-7 carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img
-                src="~@/assets/img/GServer/01.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/GServer/01.png" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/GServer/02.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/GServer/02.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">
                 {{ $t('section5.GServer_ImageTitle_2') }}
               </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/GServer/03.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/GServer/03.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">
                 {{ $t('section5.GServer_ImageTitle_3') }}
               </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/GServer/04.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/GServer/04.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">
                 {{ $t('section5.GServer_ImageTitle_4') }}
               </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/GServer/05.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/GServer/05.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">
                 {{ $t('section5.GServer_ImageTitle_5') }}
               </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/GServer/06.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/GServer/06.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">
                 {{ $t('section5.GServer_ImageTitle_6') }}
               </div>
             </div>
 
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/GServer/07.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/GServer/07.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">
                 {{ $t('section5.GServer_ImageTitle_7') }}
               </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/GServer/08.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/GServer/08.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">
                 {{ $t('section5.GServer_ImageTitle_8') }}
               </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/GServer/09.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/GServer/09.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">
                 {{ $t('section5.GServer_ImageTitle_9') }}
               </div>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselGServer"
-            data-bs-slide="prev"
-          >
-            <span
-              class="carousel-control-prev-icon bg-secondary opacity-25"
-              aria-hidden="true"
-            ></span>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselGServer" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-secondary opacity-25" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselGServer"
-            data-bs-slide="next"
-          >
-            <span
-              class="carousel-control-next-icon bg-secondary opacity-25"
-              aria-hidden="true"
-            ></span>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselGServer" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-secondary opacity-25" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -342,10 +235,7 @@
         <div class="col-lg">
           <div class="vstack gap-3">
             <div class="fs-5 fw-bolder d-flex">
-              <div
-                class="bg-primary rounded me-2"
-                style="width: 5px; height: 1lh"
-              ></div>
+              <div class="bg-primary rounded me-2" style="width: 5px; height: 1lh"></div>
               {{ $t('section5.Gumi_Title') }}
             </div>
             <div>
@@ -364,91 +254,43 @@
             </div>
           </div>
         </div>
-        <div
-          id="carouselGumi"
-          class="col-lg-7 carousel slide"
-          data-bs-ride="carousel"
-        >
+        <div id="carouselGumi" class="col-lg-7 carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner" @click="modalshow = !modalshow">
             <div class="carousel-item active">
-              <img
-                src="~@/assets/img/Gumi/01.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/Gumi/01.png" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/Gumi/02.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/Gumi/02.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">{{ $t('section5.Gumi_ImageTitle_2') }}</div>
             </div>
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/Gumi/03.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/Gumi/03.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">{{ $t('section5.Gumi_ImageTitle_3') }}</div>
             </div>
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/Gumi/04.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/Gumi/04.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">{{ $t('section5.Gumi_ImageTitle_4') }}</div>
             </div>
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/Gumi/05.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/Gumi/05.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">{{ $t('section5.Gumi_ImageTitle_5') }}</div>
             </div>
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/Gumi/06.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/Gumi/06.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">{{ $t('section5.Gumi_ImageTitle_6') }}</div>
             </div>
 
             <div class="carousel-item">
-              <img
-                src="~@/assets/img/Gumi/07.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="~@/assets/img/Project/Gumi/07.png" class="d-block w-100" alt="..." />
               <div class="fw-bold">{{ $t('section5.Gumi_ImageTitle_7') }}</div>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselGumi"
-            data-bs-slide="prev"
-          >
-            <span
-              class="carousel-control-prev-icon bg-secondary opacity-25"
-              aria-hidden="true"
-            ></span>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselGumi" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-secondary opacity-25" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselGumi"
-            data-bs-slide="next"
-          >
-            <span
-              class="carousel-control-next-icon bg-secondary opacity-25"
-              aria-hidden="true"
-            ></span>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselGumi" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-secondary opacity-25" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -460,10 +302,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="hstack gap-1 fw-bolder fs-5 mb-2">
-            <div
-              class="bg-primary rounded me-1"
-              style="width: 5px; height: 1lh"
-            ></div>
+            <div class="bg-primary rounded me-1" style="width: 5px; height: 1lh"></div>
             {{ $t('section3.Subtitle_1') }}
           </div>
           <ul>
@@ -479,10 +318,7 @@
         </div>
         <div class="col-md-6">
           <div class="hstack gap-1 fw-bolder fs-5 mb-2">
-            <div
-              class="bg-primary rounded me-1"
-              style="width: 5px; height: 1lh"
-            ></div>
+            <div class="bg-primary rounded me-1" style="width: 5px; height: 1lh"></div>
             {{ $t('section3.Subtitle_2') }}
           </div>
           <ul>
@@ -506,27 +342,38 @@
       <h3 class="text-primary fw-bolder mb-3">{{ $t('section4.Title') }}</h3>
       <div class="d-flex w-100 justify-content-between flex-wrap">
         <div class="fs-5 fw-bolder d-flex">
-          <div
-            class="bg-primary rounded me-2"
-            style="width: 5px; height: 1lh"
-          ></div>
+          <div class="bg-primary rounded me-2" style="width: 5px; height: 1lh"></div>
           {{ $t('section4.Subtitle_1') }}
         </div>
-        <small class="text-primary fw-bolder">2013 - 2017</small>
+        <small class="text-primary fw-bolder">2013.09 - 2017.06</small>
       </div>
       <div class="fs-6 text-secondary ms-3">
         {{ $t('section4.Subtitle_2') }}
       </div>
     </section>
-   
+    <section class="p-3 p-lg-5 fade-in">
+      <h3 class="text-primary fw-bolder mb-3">{{ $t('section6.Title') }}</h3>
+      <div class="d-flex w-100 justify-content-between flex-wrap">
+        <div class="fs-5 fw-bolder d-flex text-hover" @click="openbadgelink('AZ900')" role="button" >
+          <div class="bg-primary rounded me-2" style="width: 5px; height: 1lh"></div>
+          {{ $t('section6.Subtitle_1') }}
+        </div>
+        <small class="text-primary fw-bolder"> {{ $t('section6.Subtitle_3') }}</small>
+      </div>
+      <div class="fs-6 text-secondary ms-3">
+        {{ $t('section6.Subtitle_2') }}<span class="ms-1 text-primary fw-bold">I781-6979</span>
+      </div>
+      <div class="shadow border rounded m-3 text-center">
+        <img src="~@/assets/img/Badge/AZ-900.png" class="rounded img-fluid " alt="..." />
+      </div>
+
+    </section>
   </div>
 
   <div class="cart-button p-2 border shadow rounded">
     <div class="border border-3 px-2 rounded" role="button" @click="changelang">
       <i class="icon-link bi-translate"></i>
     </div>
-    <!-- <div class="border border-3 px-2 rounded " role="button" @click="exportPDF"> <i class="icon-link bi-filetype-pdf"></i>
-    </div> -->
   </div>
 </template>
 
@@ -586,7 +433,18 @@ onMounted(() => {
   })
 })
 
-const modalshow = ref(false)
+const modalshow = ref(false);
+
+const openbadgelink = (badge) => {
+  let link = "";
+  switch (badge) {
+    case "AZ900":
+      link = "https://www.credly.com/badges/cf616124-c15b-4473-8b5a-51ab7549b4af/public_url";
+      break;
+  }
+  console.log(link);
+  window.open(link);
+}
 </script>
 
 <style lang="scss">
@@ -601,6 +459,7 @@ const modalshow = ref(false)
   --bs-primary: #647b71 !important;
   --bs-primary-rgb: 100, 123, 113 !important;
   --bs-link-color: #ffffff !important;
+  --bs-link-hover-color:#ffc107 !important;
 }
 
 body {
@@ -611,8 +470,8 @@ body {
   padding: 3rem 5rem !important;
 }
 
-.a {
-  color: white;
+.a:hover {
+  color: #ffc107;
 }
 
 section {
@@ -622,6 +481,11 @@ section {
 
 .fade-in.active {
   opacity: 1;
+}
+.text-hover{
+ &:hover{
+  color:#ffc107;
+ } 
 }
 
 .cart-button {

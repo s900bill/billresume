@@ -77,6 +77,11 @@
     "Gumi_ImageTitle_5":"設備群組",
     "Gumi_ImageTitle_6":"設備列表",
     "Gumi_ImageTitle_7":"通知設定與管理"
-
+  },
+  "section6": {
+    "Title": "證照",
+    "Subtitle_1": "Microsoft Certified: Azure Fundamentals",
+    "Subtitle_2": "證照編號:",
+    "Subtitle_3": "發照日期 六月 2023 · 永久有效"
   }
 }

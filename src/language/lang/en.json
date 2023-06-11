@@ -79,5 +79,12 @@
     "Gumi_ImageTitle_5": "Device Groups",
     "Gumi_ImageTitle_6": "Device List",
     "Gumi_ImageTitle_7": "Notification Settings and Management"
+  },
+  "section6": {
+    "Title": "Badge",
+    "Subtitle_1": "Microsoft Certified: Azure Fundamentals",
+    "Subtitle_2": "ID Number:",
+    "Subtitle_3": "Issue on June 03, 2023"
+    
   }
 }
