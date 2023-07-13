@@ -27,31 +27,11 @@
     "Content_4": "Developed responsive web pages using the Vue framework with Bootstrap to create user interfaces such as Dashboard and Runtime Monitor that align with customer requirements.",
     "Content_5": "Implemented i18n to support multiple languages on the website.",
     "Content_6": "Utilized the ECharts package to visualize data, presenting clear and comprehensible charts that display data status.",
-    "Content_7": "Use MSSQL Server to create a database and store data.",
-    "Content_8": "Integrated the database using Entity Framework to consolidate data operations and provide API interfaces.",
-    "Content_9": "Utilized Redis to connect to IoT devices, retrieve sensor data, and store it in the database for comprehensive processing and utilization."
+    "Content_7": "Develop API interfaces in C# within an Asp.net environment to facilitate data integration between front-end webpages and client-side IT.",
+    "Content_8": "Utilize Entity Framework with MSSQL for data storage management.",
+    "Content_9": "Establish communication with IoT devices through Redis, retrieve sensor data, and transmit it to the server for analysis and application."
   },
   "section3": {
-    "Title": "Skills",
-    "Subtitle_1": "Frontend",
-    "Subtitle_2": "Backend",
-    "Content_1": "Language",
-    "Content_2": "Library",
-    "Content_3": "Build Tool",
-    "Content_4": "UI Framework",
-    "Content_5": "Linter",
-    "Content_6": "Language",
-    "Content_7": "Framework",
-    "Content_8": "Database",
-    "Content_9": "Application",
-    "Content_10": "Other Technologies"
-  },
-  "section4": {
-    "Title": "Education",
-    "Subtitle_1": "National Taichung University of Education",
-    "Subtitle_2": "Department fo Digital Content and Technology"
-  },
-  "section5": {
     "Title": "Project",
     "Technologies": "Technologies:",
     "ProjectContent": "ProjectContent:",
@@ -71,7 +51,7 @@
     "GServer_ImageTitle_9": "User Management and Permission Control",
     "Gumi_Title": "Gumi - Notifications System",
     "Gumi_Content_1": "Provide interface integration for product messages and send notifications based on user settings.",
-    "Gumi_Content_2": "Offer a user interface to define the priority, frequency, and number of notifications for events.",
+    "Gumi_Content_2": "Provide a user-friendly interface that allows users to define the priority, publishing frequency, and count of notification events.",
     "Gumi_Content_3": "Integrate user and product data, providing an interface to establish associations between user groups and machine groups.",
     "Gumi_ImageTitle_2": "Home - Dashboard",
     "Gumi_ImageTitle_3": "User Groups",
@@ -79,6 +59,26 @@
     "Gumi_ImageTitle_5": "Device Groups",
     "Gumi_ImageTitle_6": "Device List",
     "Gumi_ImageTitle_7": "Notification Settings and Management"
+  },
+  "section4": {
+    "Title": "Skills",
+    "Subtitle_1": "Frontend",
+    "Subtitle_2": "Backend",
+    "Content_1": "Language",
+    "Content_2": "Library",
+    "Content_3": "Build Tool",
+    "Content_4": "UI Framework",
+    "Content_5": "Linter",
+    "Content_6": "Language",
+    "Content_7": "Framework",
+    "Content_8": "Database",
+    "Content_9": "Application",
+    "Content_10": "Other Technologies"
+  },
+  "section5": {
+    "Title": "Education",
+    "Subtitle_1": "National Taichung University of Education",
+    "Subtitle_2": "Department fo Digital Content and Technology"
   },
   "section6": {
     "Title": "Badge",

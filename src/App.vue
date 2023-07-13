@@ -85,6 +85,7 @@
         </div>
       </div>
     </section>
+
     <section class="p-3 p-sm-5 fade-in">
       <h3 class="text-primary fw-bolder mb-3">{{ $t('section2.Title') }}</h3>
       <div class="">
@@ -93,7 +94,7 @@
           <div class="flex-grow-1">
             <div class="d-flex w-100 justify-content-between flex-wrap">
               <div class="fs-5 fw-bolder">{{ $t('section2.JobTitle') }}</div>
-              <small class="text-primary fw-bolder">2018.01 - {{ $t('section2.EndTime') }}</small>
+              <small class="text-primary fw-bolder">2018.01 - 2023-07</small>
             </div>
             <div class="fs-6 text-secondary">{{ $t('section2.Company') }}</div>
           </div>
@@ -137,98 +138,35 @@
       </div>
     </section>
     <hr style="width: 90%; margin: auto" />
+
     <section class="p-3 p-lg-5 fade-in">
-      <h3 class="text-primary fw-bolder mb-3">{{ $t('section5.Title') }}</h3>
+      <h3 class="text-primary fw-bolder mb-3">{{ $t('section3.Title') }}</h3>
       <div class="row mb-5">
         <div class="col-lg">
           <div class="vstack gap-3">
             <div class="fs-5 fw-bolder d-flex">
               <div class="bg-primary rounded me-2" style="width: 5px; height: 1lh"></div>
-              {{ $t('section5.GServer_Title') }}
+              {{ $t('section3.GServer_Title') }}
             </div>
             <div>
-              <div class="fw-bold">{{ $t('section5.Technologies') }}</div>
+              <div class="fw-bold">{{ $t('section3.Technologies') }}</div>
               <ul class="m-0">
                 <li>Vue2、Vuex、Element-UI、EChart</li>
                 <li>C# Asp.net 、MSSQL、Redis、Websocket、SignalR</li>
               </ul>
             </div>
             <div>
-              <div class="fw-bold">{{ $t('section5.ProjectContent') }}</div>
+              <div class="fw-bold">{{ $t('section3.ProjectContent') }}</div>
               <ul class="m-0">
-                <li>{{ $t('section5.GServer_Content_1') }}</li>
-                <li>{{ $t('section5.GServer_Content_2') }}</li>
-                <li>{{ $t('section5.GServer_Content_3') }}</li>
-                <li>{{ $t('section5.GServer_Content_4') }}</li>
+                <li>{{ $t('section3.GServer_Content_1') }}</li>
+                <li>{{ $t('section3.GServer_Content_2') }}</li>
+                <li>{{ $t('section3.GServer_Content_3') }}</li>
+                <li>{{ $t('section3.GServer_Content_4') }}</li>
               </ul>
             </div>
           </div>
         </div>
-
-        <div id="carouselGServer" class="col-lg-7 carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="~@/assets/img/Project/GServer/01.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/GServer/02.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">
-                {{ $t('section5.GServer_ImageTitle_2') }}
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/GServer/03.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">
-                {{ $t('section5.GServer_ImageTitle_3') }}
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/GServer/04.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">
-                {{ $t('section5.GServer_ImageTitle_4') }}
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/GServer/05.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">
-                {{ $t('section5.GServer_ImageTitle_5') }}
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/GServer/06.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">
-                {{ $t('section5.GServer_ImageTitle_6') }}
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/GServer/07.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">
-                {{ $t('section5.GServer_ImageTitle_7') }}
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/GServer/08.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">
-                {{ $t('section5.GServer_ImageTitle_8') }}
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/GServer/09.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">
-                {{ $t('section5.GServer_ImageTitle_9') }}
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselGServer" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bg-secondary opacity-25" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselGServer" data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-secondary opacity-25" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+        <modal :Project="'GServer'" :ImageCount="9"></modal>
       </div>
 
       <div class="row">
@@ -236,125 +174,90 @@
           <div class="vstack gap-3">
             <div class="fs-5 fw-bolder d-flex">
               <div class="bg-primary rounded me-2" style="width: 5px; height: 1lh"></div>
-              {{ $t('section5.Gumi_Title') }}
+              {{ $t('section3.Gumi_Title') }}
             </div>
             <div>
-              <div class="fw-bold">{{ $t('section5.Technologies') }}</div>
+              <div class="fw-bold">{{ $t('section3.Technologies') }}</div>
               <ul class="m-0">
                 <li>Asp.net Core、Vue3、Vite、Ant Design Vue 、i18n</li>
               </ul>
             </div>
             <div>
-              <div class="fw-bold">{{ $t('section5.ProjectContent') }}</div>
+              <div class="fw-bold">{{ $t('section3.ProjectContent') }}</div>
               <ul class="m-0">
-                <li>{{ $t('section5.Gumi_Content_1') }}</li>
-                <li>{{ $t('section5.Gumi_Content_2') }}</li>
-                <li>{{ $t('section5.Gumi_Content_3') }}</li>
+                <li>{{ $t('section3.Gumi_Content_1') }}</li>
+                <li>{{ $t('section3.Gumi_Content_2') }}</li>
+                <li>{{ $t('section3.Gumi_Content_3') }}</li>
               </ul>
             </div>
           </div>
         </div>
-        <div id="carouselGumi" class="col-lg-7 carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner" @click="modalshow = !modalshow">
-            <div class="carousel-item active">
-              <img src="~@/assets/img/Project/Gumi/01.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/Gumi/02.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">{{ $t('section5.Gumi_ImageTitle_2') }}</div>
-            </div>
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/Gumi/03.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">{{ $t('section5.Gumi_ImageTitle_3') }}</div>
-            </div>
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/Gumi/04.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">{{ $t('section5.Gumi_ImageTitle_4') }}</div>
-            </div>
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/Gumi/05.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">{{ $t('section5.Gumi_ImageTitle_5') }}</div>
-            </div>
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/Gumi/06.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">{{ $t('section5.Gumi_ImageTitle_6') }}</div>
-            </div>
-
-            <div class="carousel-item">
-              <img src="~@/assets/img/Project/Gumi/07.png" class="d-block w-100" alt="..." />
-              <div class="fw-bold">{{ $t('section5.Gumi_ImageTitle_7') }}</div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselGumi" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bg-secondary opacity-25" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselGumi" data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-secondary opacity-25" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+        <modal :Project="'Gumi'" :ImageCount="7"></modal>
       </div>
     </section>
     <hr style="width: 90%; margin: auto" />
+
     <section class="p-3 p-md-5 fade-in">
-      <h3 class="text-primary fw-bolder mb-3">{{ $t('section3.Title') }}</h3>
+      <h3 class="text-primary fw-bolder mb-3">{{ $t('section4.Title') }}</h3>
       <div class="row">
         <div class="col-md-6">
           <div class="hstack gap-1 fw-bolder fs-5 mb-2">
             <div class="bg-primary rounded me-1" style="width: 5px; height: 1lh"></div>
-            {{ $t('section3.Subtitle_1') }}
+            {{ $t('section4.Subtitle_1') }}
           </div>
           <ul>
-            <li>{{ $t('section3.Content_1') }}: HTML, CSS, SCSS, JS, TS</li>
-            <li>{{ $t('section3.Content_2') }}: Vue.js</li>
-            <li>{{ $t('section3.Content_3') }}: Webpack, Babel, Vite</li>
+            <li>{{ $t('section4.Content_1') }}: HTML, CSS, SCSS, JS, TS</li>
+            <li>{{ $t('section4.Content_2') }}: Vue.js</li>
+            <li>{{ $t('section4.Content_3') }}: Webpack, Babel, Vite</li>
             <li>
-              {{ $t('section3.Content_4') }}: Bootstrap, Element-UI, Ant Design
+              {{ $t('section4.Content_4') }}: Bootstrap, Element-UI, Ant Design
               Vue
             </li>
-            <li>{{ $t('section3.Content_5') }}: Eslint, Prettier</li>
+            <li>{{ $t('section4.Content_5') }}: Eslint, Prettier</li>
           </ul>
         </div>
         <div class="col-md-6">
           <div class="hstack gap-1 fw-bolder fs-5 mb-2">
             <div class="bg-primary rounded me-1" style="width: 5px; height: 1lh"></div>
-            {{ $t('section3.Subtitle_2') }}
+            {{ $t('section4.Subtitle_2') }}
           </div>
           <ul>
-            <li>{{ $t('section3.Content_6') }}: C#</li>
-            <li>{{ $t('section3.Content_7') }}: .NET Framework, node.js</li>
+            <li>{{ $t('section4.Content_6') }}: C#</li>
+            <li>{{ $t('section4.Content_7') }}: .NET Framework, node.js</li>
             <li>
-              {{ $t('section3.Content_8') }}: MSSQL,SQLite,Entity Framework
+              {{ $t('section4.Content_8') }}: MSSQL,SQLite,Entity Framework
               ,Redis
             </li>
             <li>
-              {{ $t('section3.Content_9') }}:Winform,Windows Service,ASP.NET
+              {{ $t('section4.Content_9') }}:Winform,Windows Service,ASP.NET
               Core
             </li>
-            <li>{{ $t('section3.Content_10') }}: Websocket, Signalr, IIS</li>
+            <li>{{ $t('section4.Content_10') }}: Websocket, Signalr, IIS</li>
           </ul>
         </div>
       </div>
     </section>
     <hr style="width: 90%; margin: auto" />
+
     <section class="p-3 p-lg-5 fade-in">
-      <h3 class="text-primary fw-bolder mb-3">{{ $t('section4.Title') }}</h3>
+      <h3 class="text-primary fw-bolder mb-3">{{ $t('section5.Title') }}</h3>
       <div class="d-flex w-100 justify-content-between flex-wrap">
         <div class="fs-5 fw-bolder d-flex">
           <div class="bg-primary rounded me-2" style="width: 5px; height: 1lh"></div>
-          {{ $t('section4.Subtitle_1') }}
+          {{ $t('section5.Subtitle_1') }}
         </div>
         <small class="text-primary fw-bolder">2013.09 - 2017.06</small>
       </div>
       <div class="fs-6 text-secondary ms-3">
-        {{ $t('section4.Subtitle_2') }}
+        {{ $t('section5.Subtitle_2') }}
       </div>
     </section>
+    <hr style="width: 90%; margin: auto" />
+
     <section class="p-3 p-lg-5 fade-in">
       <h3 class="text-primary fw-bolder mb-3">{{ $t('section6.Title') }}</h3>
       <div class="d-flex w-100 justify-content-between flex-wrap">
-        <div class="fs-5 fw-bolder d-flex text-hover" @click="openbadgelink('AZ900')" role="button" >
+        <div class="fs-5 fw-bolder d-flex text-hover" @click="openbadgelink('AZ900')" role="button">
           <div class="bg-primary rounded me-2" style="width: 5px; height: 1lh"></div>
           {{ $t('section6.Subtitle_1') }}
         </div>
@@ -380,8 +283,8 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import html2pdf from 'html2pdf.js'
+import modal from './component/modal.vue'
 import { onMounted, ref } from 'vue'
-
 import { useCookies } from 'vue3-cookies'
 const { cookies } = useCookies()
 
@@ -422,7 +325,7 @@ onMounted(() => {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        entry.target.classList.add('active')
+        entry.target.classList.add('activesection')
       }
     })
   })
@@ -445,6 +348,7 @@ const openbadgelink = (badge) => {
   console.log(link);
   window.open(link);
 }
+
 </script>
 
 <style lang="scss">
@@ -459,7 +363,7 @@ const openbadgelink = (badge) => {
   --bs-primary: #647b71 !important;
   --bs-primary-rgb: 100, 123, 113 !important;
   --bs-link-color: #ffffff !important;
-  --bs-link-hover-color:#ffc107 !important;
+  --bs-link-hover-color: #ffc107 !important;
 }
 
 body {
@@ -479,13 +383,14 @@ section {
   transition: opacity 1s ease-in-out;
 }
 
-.fade-in.active {
+.fade-in.activesection {
   opacity: 1;
 }
-.text-hover{
- &:hover{
-  color:#ffc107;
- } 
+
+.text-hover {
+  &:hover {
+    color: #ffc107;
+  }
 }
 
 .cart-button {
@@ -511,24 +416,32 @@ section {
   margin: 12px 10px 0 10px;
 }
 
-.modal {
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  padding-top: 100px;
-  /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
+
+.carousel-item {
+  img {
+    display: block;
+    width: 100%;
+  }
 }
+
+.fullscreen {
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 8%;
+  }
+
+  .carousel-item {
+    padding: 0% 5%;
+    margin: auto;
+  }
+}
+
 </style>
