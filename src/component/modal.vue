@@ -2,6 +2,7 @@
   <div
     :id="'carousel' + props.Project"
     data-bs-ride="carousel"
+    data-bs-pause="hover"
     class="carousel slide"
     :class="modalshow ? 'fullscreen' : 'col-lg-7 '"
   >
