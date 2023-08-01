@@ -82,9 +82,10 @@
   },
   "section6": {
     "Title": "Badge",
-    "Subtitle_1": "Microsoft Certified: Azure Fundamentals",
-    "Subtitle_2": "ID Number:",
-    "Subtitle_3": "Issue on June 03, 2023"
-    
+    "IDNumber": "ID Number:",
+    "Badge1_Title": "Microsoft Certified: Azure Administrator Associate",
+    "Badge1_Earnedon": "Earned on August 03, 2023",
+    "Badge2_Title": "Microsoft Certified: Azure Fundamentals",
+    "Badge2_Earnedon": "Earned on June 03, 2023"
   }
 }

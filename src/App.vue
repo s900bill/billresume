@@ -5,7 +5,11 @@
       <div class="row">
         <div class="col-md-3 col-xl-2">
           <div class="mb-3 mx-auto" style="max-width: 180px">
-            <img src="~@/assets/img/Photo.jpg" class="rounded img-fluid" alt="..." />
+            <img
+              src="~@/assets/img/Photo.jpg"
+              class="rounded img-fluid"
+              alt="..."
+            />
           </div>
         </div>
 
@@ -16,9 +20,14 @@
               <h5 class="fw-bolder">{{ $t('section1.JobTitle') }}</h5>
             </div>
             <div class="d-flex flex-wrap mb-3">
-              <a class="me-3" href="mailto:s900bill@gmail.com?subject=Email%20Subject&body=Email%20Body"><i
-                  class="bi-envelope me-2"></i>s900bill@gmail.com</a>
-              <a href="tel:+886-976-195-677"><i class="bi-telephone me-2"></i>0976195677</a>
+              <a
+                class="me-3"
+                href="mailto:s900bill@gmail.com?subject=Email%20Subject&body=Email%20Body"
+                ><i class="bi-envelope me-2"></i>s900bill@gmail.com</a
+              >
+              <a href="tel:+886-976-195-677"
+                ><i class="bi-telephone me-2"></i>0976195677</a
+              >
             </div>
           </div>
           <div class="d-block d-md-none text-center">
@@ -27,9 +36,13 @@
               <h5 class="fw-bolder">{{ $t('section1.JobTitle') }}</h5>
             </div>
             <div class="d-flex justify-content-center flex-wrap mb-3">
-              <a class="me-3" href="tel:+886-976-195-677"><i class="bi-telephone me-2"></i>0976195677</a>
-              <a href="mailto:s900bill@gmail.com?subject=Email%20Subject&body=Email%20Body"><i
-                  class="bi-envelope me-2"></i>s900bill@gmail.com</a>
+              <a class="me-3" href="tel:+886-976-195-677"
+                ><i class="bi-telephone me-2"></i>0976195677</a
+              >
+              <a
+                href="mailto:s900bill@gmail.com?subject=Email%20Subject&body=Email%20Body"
+                ><i class="bi-envelope me-2"></i>s900bill@gmail.com</a
+              >
             </div>
           </div>
           <div class="">
@@ -38,11 +51,17 @@
               <div class="fw-bold fs-5 text-warning">
                 {{ $t('section1.Item1') }}
               </div>
-              <div class="text-opacity-75 text-white fs-7 ms-1" :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'">
+              <div
+                class="text-opacity-75 text-white fs-7 ms-1"
+                :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'"
+              >
                 {{ $t('section1.ItemDetail1') }}
               </div>
             </div>
-            <div class="fs-7 text-white text-opacity-75 ms-4" :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'">
+            <div
+              class="fs-7 text-white text-opacity-75 ms-4"
+              :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'"
+            >
               {{ $t('section1.ItemDetail1') }}
             </div>
             <div class="hstack">
@@ -50,11 +69,17 @@
               <div class="fw-bold fs-5 text-warning">
                 {{ $t('section1.Item2') }}
               </div>
-              <div class="text-opacity-75 text-white fs-7 ms-1" :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'">
+              <div
+                class="text-opacity-75 text-white fs-7 ms-1"
+                :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'"
+              >
                 {{ $t('section1.ItemDetail2') }}
               </div>
             </div>
-            <div class="fs-7 text-white text-opacity-75 ms-4" :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'">
+            <div
+              class="fs-7 text-white text-opacity-75 ms-4"
+              :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'"
+            >
               {{ $t('section1.ItemDetail2') }}
             </div>
             <div class="hstack">
@@ -62,11 +87,17 @@
               <div class="fw-bold fs-5 text-warning">
                 {{ $t('section1.Item3') }}
               </div>
-              <div class="text-opacity-75 text-white fs-7 ms-1" :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'">
+              <div
+                class="text-opacity-75 text-white fs-7 ms-1"
+                :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'"
+              >
                 {{ $t('section1.ItemDetail3') }}
               </div>
             </div>
-            <div class="fs-7 text-white text-opacity-75 ms-4" :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'">
+            <div
+              class="fs-7 text-white text-opacity-75 ms-4"
+              :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'"
+            >
               {{ $t('section1.ItemDetail3') }}
             </div>
             <div class="hstack">
@@ -74,11 +105,17 @@
               <div class="fw-bold fs-5 text-warning">
                 {{ $t('section1.Item4') }}
               </div>
-              <div class="text-opacity-75 text-white fs-7 ms-1" :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'">
+              <div
+                class="text-opacity-75 text-white fs-7 ms-1"
+                :class="locale === 'zh' ? 'd-lg-block d-none' : 'd-none'"
+              >
                 {{ $t('section1.ItemDetail4') }}
               </div>
             </div>
-            <div class="fs-7 text-white text-opacity-75 ms-4" :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'">
+            <div
+              class="fs-7 text-white text-opacity-75 ms-4"
+              :class="locale === 'zh' ? 'd-lg-none d-block' : 'd-block'"
+            >
               {{ $t('section1.ItemDetail4') }}
             </div>
           </div>
@@ -103,7 +140,10 @@
         <div class="vstack gap-3 ps-3">
           <div>
             <div class="hstack gap-1 fw-bolder">
-              <div class="bg-primary rounded" style="width: 5px; height: 1lh"></div>
+              <div
+                class="bg-primary rounded"
+                style="width: 5px; height: 1lh"
+              ></div>
               {{ $t('section2.Subtitle_1') }}
             </div>
             <ul>
@@ -114,7 +154,10 @@
           </div>
           <div>
             <div class="hstack gap-1 fw-bolder">
-              <div class="bg-primary rounded" style="width: 5px; height: 1lh"></div>
+              <div
+                class="bg-primary rounded"
+                style="width: 5px; height: 1lh"
+              ></div>
               {{ $t('section2.Subtitle_2') }}
             </div>
             <ul>
@@ -125,7 +168,10 @@
           </div>
           <div>
             <div class="hstack gap-1 fw-bolder">
-              <div class="bg-primary rounded" style="width: 5px; height: 1lh"></div>
+              <div
+                class="bg-primary rounded"
+                style="width: 5px; height: 1lh"
+              ></div>
               {{ $t('section2.Subtitle_3') }}
             </div>
             <ul>
@@ -145,7 +191,10 @@
         <div class="col-lg">
           <div class="vstack gap-3">
             <div class="fs-5 fw-bolder d-flex">
-              <div class="bg-primary rounded me-2" style="width: 5px; height: 1lh"></div>
+              <div
+                class="bg-primary rounded me-2"
+                style="width: 5px; height: 1lh"
+              ></div>
               {{ $t('section3.GServer_Title') }}
             </div>
             <div>
@@ -173,7 +222,10 @@
         <div class="col-lg">
           <div class="vstack gap-3">
             <div class="fs-5 fw-bolder d-flex">
-              <div class="bg-primary rounded me-2" style="width: 5px; height: 1lh"></div>
+              <div
+                class="bg-primary rounded me-2"
+                style="width: 5px; height: 1lh"
+              ></div>
               {{ $t('section3.Gumi_Title') }}
             </div>
             <div>
@@ -202,7 +254,10 @@
       <div class="row">
         <div class="col-md-6">
           <div class="hstack gap-1 fw-bolder fs-5 mb-2">
-            <div class="bg-primary rounded me-1" style="width: 5px; height: 1lh"></div>
+            <div
+              class="bg-primary rounded me-1"
+              style="width: 5px; height: 1lh"
+            ></div>
             {{ $t('section4.Subtitle_1') }}
           </div>
           <ul>
@@ -218,7 +273,10 @@
         </div>
         <div class="col-md-6">
           <div class="hstack gap-1 fw-bolder fs-5 mb-2">
-            <div class="bg-primary rounded me-1" style="width: 5px; height: 1lh"></div>
+            <div
+              class="bg-primary rounded me-1"
+              style="width: 5px; height: 1lh"
+            ></div>
             {{ $t('section4.Subtitle_2') }}
           </div>
           <ul>
@@ -243,7 +301,10 @@
       <h3 class="text-primary fw-bolder mb-3">{{ $t('section5.Title') }}</h3>
       <div class="d-flex w-100 justify-content-between flex-wrap">
         <div class="fs-5 fw-bolder d-flex">
-          <div class="bg-primary rounded me-2" style="width: 5px; height: 1lh"></div>
+          <div
+            class="bg-primary rounded me-2"
+            style="width: 5px; height: 1lh"
+          ></div>
           {{ $t('section5.Subtitle_1') }}
         </div>
         <small class="text-primary fw-bolder">2013.09 - 2017.06</small>
@@ -257,19 +318,60 @@
     <section class="p-3 p-lg-5 fade-in">
       <h3 class="text-primary fw-bolder mb-3">{{ $t('section6.Title') }}</h3>
       <div class="d-flex w-100 justify-content-between flex-wrap">
-        <div class="fs-5 fw-bolder d-flex text-hover" @click="openbadgelink('AZ900')" role="button">
-          <div class="bg-primary rounded me-2" style="width: 5px; height: 1lh"></div>
-          {{ $t('section6.Subtitle_1') }}
+        <div
+          class="fs-5 fw-bolder d-flex text-hover"
+          @click="openbadgelink('AZ104')"
+          role="button"
+        >
+          <div
+            class="bg-primary rounded me-2"
+            style="width: 5px; height: 1lh"
+          ></div>
+          {{ $t('section6.Badge1_Title') }}
         </div>
-        <small class="text-primary fw-bolder"> {{ $t('section6.Subtitle_3') }}</small>
+        <small class="text-primary fw-bolder">
+          {{ $t('section6.Badge1_Earnedon') }}</small
+        >
       </div>
-      <div class="fs-6 text-secondary ms-3">
-        {{ $t('section6.Subtitle_2') }}<span class="ms-1 text-primary fw-bold">I781-6979</span>
+      <div class="fs-6 text-secondary ms-md-3">
+        {{ $t('section6.IDNumber')
+        }}<span class="ms-1 text-primary fw-bold">5515F2-9714DM</span>
       </div>
       <div class="shadow border rounded m-3 text-center">
-        <img src="~@/assets/img/Badge/AZ-900.png" class="rounded img-fluid " alt="..." />
+        <img
+          :src="getBadgeImage('AZ104').href"
+          class="rounded img-fluid"
+          alt="..."
+        />
       </div>
-
+s
+      <div class="d-flex w-100 justify-content-between flex-wrap mt-5">
+        <div
+          class="fs-5 fw-bolder d-flex text-hover"
+          @click="openbadgelink('AZ900')"
+          role="button"
+        >
+          <div
+            class="bg-primary rounded me-2"
+            style="width: 5px; height: 1lh"
+          ></div>
+          {{ $t('section6.Badge2_Title') }}
+        </div>
+        <small class="text-primary fw-bolder">
+          {{ $t('section6.Badge2_Earnedon') }}</small
+        >
+      </div>
+      <div class="fs-6 text-secondary ms-md-3">
+        {{ $t('section6.IDNumber')
+        }}<span class="ms-1 text-primary fw-bold">14A832-5C136E </span>
+      </div>
+      <div class="shadow border rounded m-3 text-center">
+        <img
+          :src="getBadgeImage('AZ900').href"
+          class="rounded img-fluid"
+          alt="..."
+        />
+      </div>
     </section>
   </div>
 
@@ -286,6 +388,7 @@ import html2pdf from 'html2pdf.js'
 import modal from './component/modal.vue'
 import { onMounted, ref } from 'vue'
 import { useCookies } from 'vue3-cookies'
+import { watch } from 'fs'
 const { cookies } = useCookies()
 
 const { locale, availableLocales } = useI18n({ useScope: 'global' })
@@ -318,10 +421,7 @@ function exportPDF() {
 }
 
 onMounted(() => {
-  // 获取所有的 <section> 元素
   const sections = document.querySelectorAll('section')
-
-  // 创建 Intersection Observer 实例
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -329,26 +429,39 @@ onMounted(() => {
       }
     })
   })
-
-  // 监听每个 <section> 元素
   sections.forEach((section) => {
     observer.observe(section)
   })
 })
 
-const modalshow = ref(false);
-
 const openbadgelink = (badge) => {
-  let link = "";
+  let link = ''
   switch (badge) {
-    case "AZ900":
-      link = "https://www.credly.com/badges/cf616124-c15b-4473-8b5a-51ab7549b4af/public_url";
-      break;
+    case 'AZ104':
+      link =
+        'https://learn.microsoft.com/api/credentials/share/zh-tw/07607827/D4CD1C0E3C5ED2B6?sharingId=E7474A5401E0874A'
+      break
+    case 'AZ900':
+      link =
+        'https://learn.microsoft.com/api/credentials/share/zh-tw/07607827/30B59E296A4D37F7?sharingId=E7474A5401E0874A'
+      break
   }
-  console.log(link);
-  window.open(link);
+  window.open(link)
+}
+const getBadgeImage = (badge: string): URL => {
+  return new URL(
+    `../src/assets/img/Badge/${badge}_${locale.value}.png`,
+    import.meta.url
+  )
 }
 
+// const badgeimage=ref({
+//   'AZ900_en': new URL(`../assets/img/Badge/AZ900_en.png`, import.meta.url ),
+//   'AZ900_zh': new URL(`../assets/img/Badge/AZ900_zh.png`, import.meta.url ),
+//   'AZ104_en': new URL(`../assets/img/Badge/AZ104_en.png`, import.meta.url ),
+//   'AZ104_zh': new URL(`../assets/img/Badge/AZ104_zh.png`, import.meta.url ),
+
+// });
 </script>
 
 <style lang="scss">
@@ -416,7 +529,6 @@ section {
   margin: 12px 10px 0 10px;
 }
 
-
 .carousel-item {
   img {
     display: block;
@@ -443,5 +555,4 @@ section {
     margin: auto;
   }
 }
-
 </style>

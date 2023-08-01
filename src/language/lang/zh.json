@@ -82,8 +82,10 @@
   },
   "section6": {
     "Title": "證照",
-    "Subtitle_1": "Microsoft Certified: Azure Fundamentals",
-    "Subtitle_2": "證照編號:",
-    "Subtitle_3": "發照日期 六月 2023 · 永久有效"
+    "IDNumber": "證照編號:",
+    "Badge1_Title": "Microsoft 認證：Azure 系統管理員技術師",
+    "Badge1_Earnedon": "發照日期 八月 2023",
+    "Badge2_Title": "Microsoft 認證：Azure 基本概念",
+    "Badge2_Earnedon": "發照日期 六月 2023"
   }
 }
