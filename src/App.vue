@@ -344,7 +344,6 @@
           alt="..."
         />
       </div>
-s
       <div class="d-flex w-100 justify-content-between flex-wrap mt-5">
         <div
           class="fs-5 fw-bolder d-flex text-hover"
